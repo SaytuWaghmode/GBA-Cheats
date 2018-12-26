@@ -1,0 +1,6 @@
+mkdir directoryName
+cd directoryName
+git init
+git remote add origin -f repoUrl https://github.com/libretro/libretro-database/tree/master/cht/Nintendo%20-%20Game%20Boy%20Advance
+.git/info/sparse-checkout
+git pull origin master
